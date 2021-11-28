@@ -31,6 +31,8 @@ RUN sudo apt-get install -y nodejs
 # Note: we use a different marketplace than VS Code. See https://github.com/cdr/code-server/blob/main/docs/FAQ.md#differences-compared-to-vs-code
 # RUN code-server --install-extension esbenp.prettier-vscode
 
+RUN code-server --install-extension equinusocio.vsc-material-theme
+
 # Install apt packages:
 # RUN sudo apt-get install -y ubuntu-make
 
