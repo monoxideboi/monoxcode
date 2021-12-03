@@ -29,6 +29,7 @@ RUN sudo chown -R coder:coder /home/coder/.local
 # RUN code-server --install-extension esbenp.prettier-vscode
 
 RUN code-server --install-extension ms-vscode-remote.vscode-remote-extensionpack
+RUN code-server --install-extension Equinusocio.vsc-material-theme
 
 # Install apt packages:
 # RUN sudo apt-get install -y ubuntu-make
